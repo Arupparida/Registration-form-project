@@ -23,7 +23,19 @@ label{
   display: block;
   margin: 0.5rem 0%;
 }
+.fieldset {
+  padding: 2 rem none;
+  border: 0;
+  
+ }
 
 /*input{
   display: flex;
 }*/
+
+.input{
+  box-sizing: border-box;
+}
+.input[type=text]{
+  border-bottom: 10px solid red;
+}
