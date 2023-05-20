@@ -23,19 +23,23 @@ label{
   display: block;
   margin: 0.5rem 0%;
 }
-.fieldset {
+fieldset {
   padding: 2 rem none;
   border: 0;
+  border-bottom : 3px solid #3b3b4f;
   
+ }
+
+ fieldset:last-of-type{
+  border-bottom: none;
  }
 
 /*input{
   display: flex;
 }*/
 
-.input{
-  box-sizing: border-box;
-}
-.input[type=text]{
-  border-bottom: 10px solid red;
+input,textarea,select{
+  margin:10px 0 0 0;
+  width:100%;
+
 }
